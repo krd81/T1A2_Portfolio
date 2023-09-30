@@ -1,0 +1,192 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* This is styling for TEXT COMPONENT 2 */
+/* This is styling for GRAPHICAL COMPONENT 1 */
+/* This is styling for GRAPHICAL COMPONENT 2 */
+section, aside {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    
+    padding-left: 5vh;
+    padding-right: 5vh;
+    
+    align-items: center;
+
+    
+}
+
+/* This is styling for GRAPHICAL COMPONENT 1 */
+h1 {
+    text-align: center;
+    margin: 5vh 0 0 0;
+    font-weight: 700;
+    font-size: 400%;    
+}
+
+
+/*ID used to target the background image on the homepage, controlling the positioning ensuring it fills the screen and z-index to allow the profile picture to be in front*/
+/* This is styling for GRAPHICAL COMPONENT 1 */
+#banner{
+    position: static;
+    z-index: -1;
+    border: 0;
+    margin: 0;
+    width: 100vw;
+    min-height: 40vh;
+    border-radius: 0;
+    
+}
+
+
+/*ID also used for the profile image so that specific styling can be applied to this element*/
+/* This is styling for GRAPHICAL COMPONENT 1 */
+#profile {
+   position: absolute;
+      
+    margin: 2vh;
+    border: 1px solid black;
+
+    width: 18vh;
+    border-radius: 100%;
+}
+
+/* This is styling for TEXT COMPONENT 2 */
+h2 {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+
+/*use section:last-of-type to target the paragraph before social media icons and ensure it has a maximum width on wide screens*/
+/* This is styling for TEXT COMPONENT 2 */
+section:last-of-type{
+        max-width: 850px;
+ }
+
+
+/*Styling for the social media/contacts banner, managing the layout, colour and positioning */
+/* This is styling for GRAPHICAL COMPONENT 2 */
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 5vh;
+    
+    
+    background-color: rgba(91, 109, 127, 0.5);
+    min-height: 10vh;
+    
+    min-width: 100vw;
+    
+}
+
+
+
+/* The remaining css statements are to manage the social media icons, in particular their size and the spacing between them*/
+/* This is styling for GRAPHICAL COMPONENT 2 */
+.logo {
+    position: relative;
+    width: 5vh;
+    height: 5vh;
+    margin: 0 2vw;   
+}
+
+/* tooltip & show-number IDs are to allow a phone number floating element to appear when hovering on the "whatsapp" icon*/
+/* This is styling for GRAPHICAL COMPONENT 2 */
+#tooltip{
+    position: relative;
+    display: inline-block;
+    
+}
+
+/* This is styling for GRAPHICAL COMPONENT 2 */
+#tooltip #show-number{
+    visibility: hidden;
+    width: 90px;
+    background-color:rgba(64, 195, 81, 1);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 4px;
+    z-index: 1;
+    position: absolute;
+    
+    right: 6px;
+    font-size: small;
+
+}
+
+/* This is styling for GRAPHICAL COMPONENT 2 */
+#tooltip:hover #show-number {
+    visibility: visible;
+}
+
+/*REQUIRED TO SHOW THE PROFILE IMAGE OFF-CENTRE 
+ON SMALLER DEVICES*/
+@media only screen and (max-width: 399px){
+ 
+    #profile {
+       right: 45vw;
+    }  
+
+}
+
+/*TABLET media breakpoint - controlling the response for font sizing and positioning of elements*/
+@media only screen and (min-width: 400px) and (max-width: 849px){
+ 
+     #profile {
+        right: 55vw;
+        border-width: 3px;
+     }
+
+     h1{
+        margin-bottom: 2vh;
+    }
+
+    aside {
+        font-size: 1.5rem;
+       
+     }
+
+
+}
+
+/*DESKTOP media breakpoint controlling the response for font sizing and positioning of elements
+Also an adjustment is applied for the tooltip ID (the floating phone number) adjusting its position to the right
+where there is more space on a larger screen*/
+@media only screen and (min-width: 850px){
+    h1{
+        margin-bottom: 2vh;
+    }
+
+    #profile {
+        left: 400px;
+        border-width: 3px;
+        width: 20%;
+     }     
+
+
+     aside {
+        font-size: 1.5rem;
+        justify-content: center;
+     }
+
+
+     #tooltip #show-number{
+        position: relative;
+        width: 120px;
+        bottom: 15px;
+        font-size: small ;
+        padding: 9px;
+     }
+    
+}

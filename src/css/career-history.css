@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/* This is styling for TEXT COMPONENT 4 */
+section {    
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+/* This is styling for TEXT COMPONENT 4 */
+h2{
+    margin-bottom: 2vh;
+}
+
+/* This is styling for TEXT COMPONENT 4 */
+p{
+    line-height: 2;
+    font-size: large;
+
+}
+
+/* This is styling for TEXT COMPONENT 4 */
+ulist{
+    line-height: 1.5;
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+/* Specific ID used to target this hyperlink and not those in the menu bar */
+/* This is styling for TEXT COMPONENT 4 */
+#CV:hover { 
+ color: deeppink;   
+}
+
+
+
+/* TABLET media breakpoint controlling the maximum width of the text/paragraph elements on wider screens */
+@media only screen and (min-width: 400px) and (max-width: 849px){
+    section{        
+        max-width: 650px;
+    }
+    
+    p, li {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+/* DESKTOP media breakpoint controlling the maximum width of the text/paragraph elements on wider screens */
+@media only screen and (min-width: 850px){
+    section{        
+        max-width: 650px;
+    }
+    
+    p, li {
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,131 @@
+/*This is a generic style sheet which is used by all of the HTML files in this project
+It contains basic layouts common to all pages and font styling, sizing, colouring etc 
+Specific styling required by individual pages is located in that page's specific css file.*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+
+    font-family: 'Gayathri', sans-serif;
+    
+   
+   color: rgb(55, 92, 114);
+}
+
+/* The body styling is in the generic style sheet as this is where the background property, required for all pages, is held*/
+body {
+    background: rgb(223, 222, 222)  url(/src/images/geo-background-1.jpg);
+    background-size: 100vh;
+   background-position: auto;
+    
+  
+}
+
+/* The nav styling is in the generic style sheet as the menu bar is shown on all pages*/
+/* This is styling for TEXT COMPONENT 1 */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(91, 109, 127, 0.5);
+    min-height: 5vh;
+    max-height: 10vh;
+    min-width: 100vw;
+    padding: 0;
+   
+}
+
+/*The following div and a styling are also related to controlling the styling behaviour of the menu bar*/
+/* This is styling for TEXT COMPONENT 1 */
+div{
+   
+   padding: 0.75vh 1.5vh;
+   
+}
+
+/* This is styling for TEXT COMPONENT 1 */
+nav>div {
+    min-height: 5vh;
+    max-height: 10vh;
+    
+    padding: 2vh 15px;
+}
+
+/* This is styling for TEXT COMPONENT 1 */
+nav>div:hover {
+    background-color: dimgrey;
+    color: whitesmoke;
+    
+}
+
+/* This is styling for TEXT COMPONENT 1 */
+a:hover {    
+    color: whitesmoke;
+}
+
+/* This is styling for TEXT COMPONENT 3 */
+footer{
+    position: static ;
+    left:0;
+    bottom: 0;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    font-size: small; 
+    
+}
+
+/* This is styling for TEXT COMPONENT 3 */
+footer>div{
+    padding: 5px 0;
+    height: 15px;   
+}
+
+/* This is styling for TEXT COMPONENT 3 */
+#footer-link:hover {
+    color: darkorange;
+}
+
+
+/*TABLET media breakpoint controlling the response for font sizing and positioning of elements*/
+@media only screen and (min-width: 400px) and (max-width: 849px){
+    p, nav{
+        font-size: 1.3rem;
+    }
+    
+    body {
+        align-items: center;
+    }
+    
+    
+    nav {
+        padding: 0 5vw;
+        align-self: stretch;
+    }   
+}
+
+/*DESKTOP media breakpoint controlling the response for font sizing and positioning of elements*/
+@media only screen and (min-width: 850px){
+    p, nav{
+        font-size: 1.3rem;
+    }
+    
+    body {
+        align-items: center;
+    }
+
+
+    nav {
+       
+        justify-content: center;
+    }
+
+    nav>div {
+        margin: 0 15px;
+    }
+
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/skills.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <!--Menu bar code-->
+        <!-- TEXT COMPONENT 1 -->
+        <div><a href="index.html">Home</a></div>
+        <div><a href="about-me.html">About Me</a></div>
+        <div><a href="career-history.html">Career History</a></div>
+        <div><a href="skills.html">Skills</a></div>
+        <div><a href="blogs.html">Blogs</a></div>
+    </nav>
+
+    <!--Only 1 section required to contain all of the elements displayed on this page-->
+    <section>
+        <h2>My Skills & Development</h2>
+        <!--Each 'skills' <div> represents a component which contains a list of skills -->
+        <!-- TEXT COMPONENT 5-->    
+        <div class = "skills">
+            <!--The design of the webpage is such that initially only the category headers are visible. To implement this functionality, it was necessary to give this div its own category name-->
+            <div class = "category">Programming Languages</div>
+            <!--A specific class for the 'dropdown' (i.e. the list of skills which appears on hover) was also needed to allow the toggle between the hidden and visible -->
+            <div class="dropdown">
+                <!--Each component eventually has a list <ul> of the relevant skills for that category-->
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Visual Basic (VBA)</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class = "skills">
+            <div class = "category">Web Development</div>
+            <div class="dropdown">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Responsive Design</li>
+                    <li>MongoDB</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class = "skills">
+            <div class = "category">Professional Software</div>
+            <div class="dropdown">
+                <ul>
+                    <li>Microsoft Excel - advanced</li>
+                    <li>Microsoft Word - advanced</li>
+                    <li>Microsoft PowerPoint - intermediate</li>
+                    <li>Google Docs - intermediate</li>
+                    <li>Oracle SAP ERP systems</li>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div class = "skills">
+            <div class = "category">Education</div>
+            <div class="dropdown">
+                <ul>
+                    <li>Coder Academy (<em>in progress</em>)</li>
+                    <p>RMIT Courses: 2020 - 2021</p>
+                    <li>Introduction to Programming - <em>Grade: HD</em></li>
+                    <li>Programming 1 - <em>Grade: HD</em></li>
+                    <li>Further Programming - <em>Grade: HD</em></li>         
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class = "skills">
+            <div class = "category">Awards & Accolades</div>
+            <div class="dropdown">
+                <ul>
+                    <li>Coder Academy 'Diversity In Tech' Scholarship</li>
+        
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- TEXT COMPONENT 3-->
+    <footer>
+        <div>&copy Kelly De Gannes 2023 | Deployed using <a id="footer-link" href="https://vercel.com/home">vercel.com</a></div>
+    </footer>
+    
+</body>
+</html>

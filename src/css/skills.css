@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    padding: 2vh;
+    text-align: center;
+}
+
+/* This is styling for TEXT COMPONENT 5 */
+.skills {
+    position: relative;
+    display: block;
+    max-width: 540px;
+}
+
+/* This is styling for TEXT COMPONENT 5 */
+.category {
+    border: 1px solid black;
+    min-height: 7vh;
+    font-size: 3vh;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    padding: 2vh 5vh;    
+    text-wrap: wrap ;
+    transition: background-color 2s;
+}
+
+/* Manages visual display of the dropdown list of skills, which is initially hidden, until hovering on category heading */
+/* This is styling for TEXT COMPONENT 5 */
+.dropdown {
+   display: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    position: relative;
+    justify-content: center;
+    background-color: white;
+    color: white;
+    z-index: 1;
+}
+
+/* Controls the positioning of the dropdown list (ul element) */
+/* This is styling for TEXT COMPONENT 5 */
+.dropdown ul {
+    display: block;
+    align-items: center;       
+}
+
+/*Show item list on hover*/
+/* This is styling for TEXT COMPONENT 5 */
+.skills:hover .dropdown {
+    display: flex;
+    align-items: center;
+    
+}
+
+/*Applies transition effect to heading on hover*/
+/* This is styling for TEXT COMPONENT 5 */
+.skills:hover .category {
+    background-color: rgb(256, 256, 256);
+    border-bottom: none;
+    text-align: center;
+    color: rgb(4, 170, 109);
+}
+
+/*Applies effects on hovering list items*/
+/* This is styling for TEXT COMPONENT 5 */
+.dropdown ul>li:hover {
+    background-color: pink;
+}
+
+/* Controls the styling of the items in the bullet point list */
+/* This is styling for TEXT COMPONENT 5 */
+li {
+    list-style: square; 
+    font-size: 2vh;
+}
+
+/* This is styling for TEXT COMPONENT 5 */
+p {
+    margin-top: 15px;
+    padding: -10px  ;
+    font-size: 2vh;
+    color:rgb(4, 170, 109) ;
+    }
+
+    /* This is styling for TEXT COMPONENT 5 */
+em {
+    font-size: smaller;
+    font-style: normal;
+}
+
+/*Additional code to ensure the footer (copywrite line) is positioned away from the main body of the page.
+Without this, the varying size of the dropdown lists, when they become visible, keep moving the footer position up and down*/
+/* This is additional styling for TEXT COMPONENT 3 */
+footer{
+    position: absolute ;
+    bottom: -40px;
+
+}
+
+/*TABLET responsive display: ensures the initial width of each category is larger than the (initially hidden) dropdown lists
+to prevent the 'category' div from resizing when the dropdown becomes visible*/
+@media only screen and (min-width: 400px) and (max-width: 849px){
+    .skills {
+        min-width: 540px;        
+        }
+    }
+
+/*DESKTOP responsive changes as per TABLET above*/
+@media only screen and (min-width: 850px){
+    .skills {
+    min-width: 600px;
+    
+    }
+
+}

@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 2vh;
+}
+
+
+/* Manages the layout and appearance of each section specified by the class 'blog-post'*/ 
+/* This is styling for GRAPHICAL COMPONENT 4 */
+.blog-post{    
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 345px;
+    background-color: rgb(189, 226, 231);
+    padding: 1vh;
+    border: 3px solid navy;
+    box-shadow: 5px 5px rgb(164, 144, 144);
+    margin: 2vh;
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+img {
+    max-width: min(40vw , 400px);
+    min-width: 200px;
+    justify-content: center;
+}
+
+/* Ensures the button is displayed in the centre of its container 
+flex property used to control the flex-grow basis of this section - so that regardless of the blog container growing based on the flexible layout, the button will always be positioned the bottom of the post*/
+/* This is styling for GRAPHICAL COMPONENT 4 */
+section>div:last-of-type{    
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    flex: 1 0 auto;
+   
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+.post-category{
+    font-family: 'Antonio', sans-serif;
+    font-weight: 500;
+    color: rgb(164, 144, 144);
+    font-size: 1.5rem;
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+.date, sup{
+    font-family: 'Antonio', sans-serif;
+    font-weight: 100;
+    color: rgb(164, 144, 144);
+    font-size: small;
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+.title {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 100;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* This is styling for GRAPHICAL COMPONENT 4 */
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    
+    font-family: 'Antonio', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    
+    min-height: 4vh;
+    max-height: 20px;
+ 
+    background-color: navy;
+    color: white;
+
+    text-align: center;
+
+    padding: 4px 7px;
+    box-shadow: 2px 2px rgb(164, 144, 144);
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 849px){
+    .blog-post{
+        max-width: 450px;       
+    }
+
+    .post-category, h2 {
+       font-size: 2rem;
+    }
+    
+    .date, sup {
+        font-size: 1.3rem;
+    }
+    
+    .title {
+        font-size: 1.6rem;
+    }
+
+}
+
+/* DESKTOP responsive display ensures the blogs are laid out in 2 columns rather than the flex display allowing any number to be displayed across the available width of the screen */
+@media only screen and (min-width: 850px) {
+    article {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 2rem 5rem;
+        max-width: 850px;
+    } 
+
+    img{
+        max-width: 250px;
+    }
+
+    .post-category, h2 {
+    font-size: 2rem;
+    }
+
+    .date, sup {
+    font-size: 1.3rem;
+    }
+
+    .title {
+    font-size: 1.6rem;
+    }
+}
