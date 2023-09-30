@@ -37,6 +37,8 @@ The external links have been created so that they open in a new browser window, 
 
 ![Desktop homepage](./docs/homepage-desktop.png)
 
+- Phone number tooltip
+![Contact toolbar image](./docs/phone-number-on-hover.png)
 
 # About Me
 - Mobile
