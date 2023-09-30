@@ -22,20 +22,20 @@ The website is fully responsive with fonts and elements, resized or with altered
 The external links have been created so that they open in a new browser window, so that the user does not inadvertently leave the website when going to view github or the resume for example. 
 
 ## Sitemap
-![Sitemap](/docs/sitemap.pdf)
+![Sitemap](./docs/sitemap.pdf)
 
 ## Screenshots
 # Homepage
 - Mobile
 
-![Mobile homepage](/docs/homepage-mobile.png)  
+![Mobile homepage](./docs/homepage-mobile.png)  
 - Tablet
 
-![Tablet homepage](/docs/homepage-tablet.png)  
+![Tablet homepage](./docs/homepage-tablet.png)  
 
 - Desktop
 
-![Desktop homepage](/docs/homepage-desktop.png)
+![Desktop homepage](./docs/homepage-desktop.png)
 
 
 # About Me
