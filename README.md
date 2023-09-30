@@ -1,7 +1,7 @@
 # Kelly De Gannes : Assignment 2 - Portfolio
 
 ## Links 
-[Published website](https://assignment2-portfolio.vercel.app/)
+[Published website](https://t1-a2-portfolio-three.vercel.app/)
 
 Github repo: 
 
@@ -99,9 +99,10 @@ The external links have been created so that they open in a new browser window, 
 Potential future employers and recruiters - it has been designed to be user-friendly and easy to navigate so no technical knowledge is required to fully benefit from its features.
 
 ## Tech Stack
-- HTML5
-- CSS
-- Google fonts
+- HTML5 - website
+- CSS - website
+- Google fonts - website
 - [Vercel](https://vercel.com) - deployment
 - Microsoft Word - resume
-- - slide deck
+- Google Slides - slide deck/site map
+- Project Wireframes by Balsamiq - wireframes
