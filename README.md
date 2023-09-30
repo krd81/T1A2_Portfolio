@@ -22,7 +22,7 @@ The website is fully responsive with fonts and elements, resized or with altered
 The external links have been created so that they open in a new browser window, so that the user does not inadvertently leave the website when going to view github or the resume for example. 
 
 ## Sitemap
-![Sitemap](./docs/sitemap.pdf)
+![Sitemap](./docs/sitemap.png)
 
 ## Screenshots
 # Homepage
@@ -41,58 +41,58 @@ The external links have been created so that they open in a new browser window, 
 # About Me
 - Mobile
 
-![Mobile about-me](/docs/about-me-mobile-1.png)  
+![Mobile about-me](./docs/about-me-mobile-1.png)  
 
-![Mobile about-me](/docs/about-me-mobile-2.png)  
+![Mobile about-me](./docs/about-me-mobile-2.png)  
 - Tablet
 
-![Tablet about-me](/docs/about-me-tablet-1.png)  ![Tablet about-me](/docs/about-me-tablet-2.png)
+![Tablet about-me](./docs/about-me-tablet-1.png)  ![Tablet about-me](./docs/about-me-tablet-2.png)
 
 - Desktop
 
-![Desktop about-me](/docs/about-me-desktop.png)  
+![Desktop about-me](./docs/about-me-desktop.png)  
 
 
 
 # Career History
 - Mobile
 
-![Mobile career-history](/docs/career-history-mobile.png)
+![Mobile career-history](./docs/career-history-mobile.png)
 - Tablet
 
-![Tablet career-history](/docs/career-history-tablet.png)
+![Tablet career-history](./docs/career-history-tablet.png)
 
 - Desktop
 
-![Desktop career-history](/docs/career-history-desktop.png)
+![Desktop career-history](./docs/career-history-desktop.png)
 
 
 
 # Skills
 - Mobile
 
-![Mobile skills](/docs/skills-mobile-1.png)  ![Mobile skills](/docs/skills-mobile-2.png)  
+![Mobile skills](./docs/skills-mobile-1.png)  ![Mobile skills](./docs/skills-mobile-2.png)  
 - Tablet
 
-![Tablet skills](/docs/skills-tablet-1.png)  ![Tablet skills](/docs/skills-tablet-2.png)
+![Tablet skills](./docs/skills-tablet-1.png)  ![Tablet skills](./docs/skills-tablet-2.png)
 
 - Desktop
 
-![Desktop skills](/docs/skills-desktop-1.png)  ![Desktop skills](/docs/skills-desktop-2.png)
+![Desktop skills](./docs/skills-desktop-1.png)  ![Desktop skills](./docs/skills-desktop-2.png)
 
 
 
 # Blogs
 - Mobile
 
-![Mobile blogs](/docs/blogs-mobile.png)  
+![Mobile blogs](./docs/blogs-mobile.png)  
 - Tablet
 
-![Tablet blogs](/docs/blogs-tablet.png)  
+![Tablet blogs](./docs/blogs-tablet.png)  
 
 - Desktop
 
-![Desktop blogs](/docs/blogs-desktop.png)
+![Desktop blogs](./docs/blogs-desktop.png)
 
 
 ## Target Audience
