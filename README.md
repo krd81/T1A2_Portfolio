@@ -109,5 +109,6 @@ Potential future employers and recruiters - it has been designed to be user-frie
 - Google fonts - website
 - [Vercel](https://vercel.com) - deployment
 - Microsoft Word - resume
-- Google Slides - slide deck/site map
+- Google Slides - site map
+- Microsoft Powerpoint - slide deck
 - Project Wireframes by Balsamiq - wireframes
