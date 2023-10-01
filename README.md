@@ -5,6 +5,8 @@
 
 [Github repo](https://github.com/krd81/T1A2_Portfolio.git)
 
+[Presentation recording](https://youtu.be/1DdcpEQzwsE)
+
 ## Purpose of website
 The purpose of the website is to provide an opportunity to practise and utilise the HTML and CSS skills we have learned. It also serves as a convenient way to showcase my work and abilities to potential future employers. As it is part of an assignment, it also provides the educators with a view of my capabilities at this stage of the course.
 
